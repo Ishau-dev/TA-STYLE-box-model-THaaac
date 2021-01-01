@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.first{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.first h3{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    padding-left: 5px;
+    
+}
+
+.first #box1{
+  background-color: #FE5349;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+}
+
+.first #box2{
+    background-color: #0C8871;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  .first #box3{
+    background-color: #B600FF;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  .second{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.second h3{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    padding-left: 5px;
+    
+}
+
+.second #box2-1{
+  background-color: #0DC1FD;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.second #box2-2{
+    background-color: #09CA80;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  .second #box2-3{
+    background-color: #02F361;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  .third{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.third h3{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    padding-left: 5px;
+    
+}
+
+.third #box3-1{
+  background-color: #E8FF1E;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.third #box3-2{
+    background-color: #FE7406;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+
+  .third #box3-3{
+    background-color: #E52F2E;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+  }

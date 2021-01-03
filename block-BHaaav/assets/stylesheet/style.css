@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.top {
+    text-align: center;
+    background-color: #2D3040;
+    color: #E0E0E3;
+    height: 50px;
+}
+
+.top h1{
+  font-size: 20px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.menu a{
+    color: #E0E0E3;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sect1{
+    background-color: #2D3040;
+}
+
+.sect1 h2 {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 900px;
+    padding-top: 100px;
+    font-size: 30px;
+    padding-bottom: 25px;
+
+}
+
+.sect1 p {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 40px;
+    opacity: 0.2;
+}
+
+.sect1 hr {
+    margin-left: 100px;
+    font-size: 1px;
+    width: 900px;
+    opacity: 0.1;
+}
+
+.sect2{
+    background-color: #4C5C96;
+}
+
+.sect2 h2 {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 900px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.sect2 img{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-left: 100px;
+   padding-bottom: 20px;
+}
+
+.sect2 p {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    opacity: 0.2;
+}
+
+.sect2 hr {
+    margin-left: 100px;
+    font-size: 1px;
+    width: 900px;
+    opacity: 0.1;
+}
+
+.sect2 a{
+    margin-left: 100px;
+    color: white;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.sect3{
+    background-color: #45568C;
+}
+
+.sect3 h2 {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 900px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.sect3 img{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-left: 100px;
+   padding-bottom: 20px;
+}
+
+.sect3 p {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    opacity: 0.2;
+}
+
+.sect3 a{
+    margin-left: 100px;
+    color: white;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.sect4{
+    background-color: #3F4E85;
+}
+
+.sect4 h2 {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 900px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.sect4 img{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-left: 100px;
+   padding-bottom: 20px;
+}
+
+.sect4 p {
+    margin-left: 100px;
+    color: #E0E0E3;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    opacity: 0.2;
+}
+
+.sect4 a{
+    margin-left: 100px;
+    color: white;
+    width: 800px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.foot{
+    background-color: #2D3040;
+    height: 30px;
+}
+
+.foot #copyright{
+    margin-left: 100px;
+}
